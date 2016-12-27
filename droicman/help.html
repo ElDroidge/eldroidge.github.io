@@ -8,22 +8,23 @@
 <body>
   <center>
     <h1> Droicman: User Manual </h1>
-    <p style = "color: ffff00;"> <i> Last update: v0.0.16 </i> </p> 
+    <p style = "color: ffff00;"> <i> Last update: v0.1.0 </i> </p> 
     <br>
-    <p align = "justify"> Droicman is an arcade-style game based on arcade classics like Pac-Man. The objective of the game is simple: eat as many pellets as possible, dodge enemies, eat the enemies when you have the power, and try and get as far as possible. The game currently has a fair amount of levels (two packs), but many more will be added soon. </p>
+    <p align = "justify"> Droicman is an arcade-style game based on arcade classics like Pac-Man. The objective of the game is simple: eat as many pellets as possible, dodge enemies, eat the enemies when you have the power, and try and get as far as possible. The game is currently in Beta, and many new features will be added in the future. Stay tuned for updates!</p>
     <br>
     <h2> The Basics </h2>
     <p align = "justify"> The yellow object that can be moved by the in-game buttons will be referred to as Droicman from here onward, and is the player object of the game. The small pink objects are tiny pellets, worth 50 points each. The large pink objects are large pellets worth 100 points each, and award invincibility to the player upon consumption. The red objects that look like Droicman are in fact enemies, and will end the game upon collision with Droicman. The only way to defeat them is by gaining invincibility and eating them up, in which case they are worth 200 points each. </p>
     <p align = "justify"> Your final score will depend on the points you collected before dying, and the time you lasted for (in seconds). The time taken will be subtracted from the collected points to yield the final score, making every second precious. </p>
     <br>
+    <h2> The Main Menu </h2>
+    <p align = "justify"> The main menu consists of three sets of buttons: "Start", the button that starts the game; "Help", the button that brings the user to the manual of the game; and two buttons that switch on/off sounds and haptic feedback. Below the buttons is displayed the version number of the game, along with other information.</p>
+    <br>
     <h2> The HUD </h2>
-    <p align = "justify"> The HUD consists of three numbers, each displayed at the top of the screen: the level name (in the form XY, where X is the level pack and Y is the level number), the points collected, and the time elapsed, respectively. The first level (Level 00) will always be without any enemies, and will serve to warm the player up and award some guaranteed points.</p>
+    <p align = "justify"> The HUD consists of three numbers, each displayed at the top of the screen: the level name, the points collected, and the time elapsed, respectively. The first level will always be without any enemies, and will serve to warm the player up and award some guaranteed points.</p>
     <br>
     <h2> Controls </h2>
-    <p align = "justify"> The buttons in-game represent a virtual D-pad with haptic feedback. Simply tap (and at times, hold) the appropriate button to make Droicman go in that direction, whenever it isn't impossible. </p>
-    <p align = "justify"> Droicman cannot turn to a direction if it is being blocked by a wall; for instance, if Droicman is to turn left at a certain point but cannot travel in that direction due to the presence of a wall, it won't turn left to begin with. </p>
-    <p align = "justify"> You might notice that Droicman does not switch directions at times even when it appears to have the room to, especially when the directions are being switched between left/right and up/down. That is (most probably) not a bug, and the game is not being unresponsive. It is simply a matter of great timing to be able to turn and go into such spaces at the tap of a button; I can't do it either. That is why the game features mechanics that allow the direction Droicman is to go into to be decided before the actual changing of direction. Simply tap and hold the corresponding direction key to turn to that direction as soon as Droicman finds room to. So for instance, if Droicman is just about to come to a point where it can either turn left or right, start holding the left or right direction key just before that point is reached, to turn to that direction as soon as Droicman reaches that point. </p>
-    <p align = "justify"> All this might sound tedious on paper, but it'll slowly become intuitive. The controls work the way they do partly because there is no other way to make them run; the original Pac-Man had such controls too. </p>
+    <p align = "justify"> The buttons in-game represent a virtual D-pad with haptic feedback. Simply tap on a direction button to make Droicman go in that direction, as soon as it gets the room to.</p>
+    <p align = "justify">A tiny yellow pointer near Droicman will indicate the direction it is supposed to go into, even if it's currently going in another direction. For example, if the player taps on "left" and Droicman has a set of walls on its left, Droicman will continue going in the direction it was going in before the command, but the yellow pointer will turn left nonetheless, indicating that the command has been queued; as soon as Droicman finds room to turn left, it will turn left.</p>
     <br>
     <h2> Other Stuff </h2>
     <p align = "justify"> If you've found a bug or problem that hasn't been discussed above, please submit feedback regarding it to the app's Play Store page. </p>
